@@ -22,3 +22,10 @@ git checkout <branch_name>
 
 Update contents of branch
 git pull
+
+Merge branches
+update to branch <branch1> in which you want to merge and then merge branch2
+git checkout branch1
+git merge branch2
+In case of conflicts, use
+git merge --abort
