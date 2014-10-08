@@ -1,0 +1,24 @@
+Clone <repository>
+git clone <repository>
+
+print fetch and push addresses
+git remote -v
+
+Commit changes to local repo
+git commit
+
+Push changes from branch <branch_name> to remote repo(origin)
+git push origin <branch_name>
+
+create and update to branch
+git checkout -b <branch_name>
+shorthand for
+git branch <branch_name>
+git checkout <branch_name>
+
+
+switch to branch branch_name
+git checkout <branch_name>
+
+Update contents of branch
+git pull
